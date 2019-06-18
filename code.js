@@ -23,3 +23,10 @@ function isFive(input) {
     var input = 5;
     return typeof input === "boolean";
 }
+
+function isEven() {
+    return typeof input === "boolean";
+    if (input % 2); {
+        return true;
+    }
+}
