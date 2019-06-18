@@ -41,3 +41,21 @@ describe('sayHello', function () {
         expect(sayHello(false)).toBe("Hello, World!");
     });
 });
+// exercise #10
+describe('isFive', function () {
+    it('should be a defined function', function () {
+        expect(typeof isFive).toBe('function');
+    });
+    it('should always return a boolean when executed', function () {
+        expect(typeof isFive()).toBe("boolean");
+    });
+    it('should always return true when executed', function () {
+        expect(typeof isFive(5)).toBe("boolean");
+    });
+    it('should always return false when executed', function () {
+        expect(typeof isFive("5")).toBe("boolean");
+    });
+});
+
+// exercise #11
+//describe()

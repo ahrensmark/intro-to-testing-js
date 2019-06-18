@@ -18,3 +18,8 @@ function sayHello(input) {
     //     return "Hello, Jane!";
     //  }
 }
+
+function isFive(input) {
+    var input = 5;
+    return typeof input === "boolean";
+}
